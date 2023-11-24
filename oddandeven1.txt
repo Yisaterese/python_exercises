@@ -1,0 +1,8 @@
+
+number = int(input("enter enter))
+next_units = 100*10
+after_units 200 *20
+if(number == 100):
+  print("payment is free")
+if(number > )
+ print(f"")

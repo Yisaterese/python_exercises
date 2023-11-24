@@ -1,0 +1,6 @@
+number = int(input("enter number"))
+if(number % 3 == 0):
+  print("Hello {number} is devisble")
+
+if(number % 3 != 0):
+ print(f"Bye {number} is not devisible");
