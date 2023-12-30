@@ -5,32 +5,30 @@ def largest1(m,n,k):
 		return n
 	if k > n and k > m:
 		return k
-#print(largest1(60,56,200))
-
-
-
+print(largest1(60,56,200))
 
 def largest2(m,n,k):
 	result = 0
 	if m > n and m > k:
 		result = m
-	elif n > m and n > k:
+	if n > m and n > k:
 		result = n
-	elif k > n and k > m:
+	if k > n and k > m:
 		result = k
-	return result
-#print(largest2(60,56,200))
+		return result
+print(largest2(60,56,200))
 
 
 def largest3(m,k,n,):
 	largest = m
+	if k > m: 
+		largest = k
 	if n > k :
 		largest = n
-	elif k > n:
-		largest = k
 	return largest
-#print(largest2(67,98,23))
+print(largest3(96,89,123))
 
-def product(a, b):
-	return a*b
-#print(product(3, 3))
+def multiplication(m,k):
+	return m * k
+print(multiplication(2,4))
+
